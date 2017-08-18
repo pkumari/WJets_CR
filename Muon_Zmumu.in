@@ -2,7 +2,7 @@
             Smear
 /////////////////////////////////
 
-SmearTheParticle 0
+SmearTheParticle 1
 PtScaleOffset 1.
 PtSigmaOffset 1.
 EtaScaleOffset 1.
@@ -24,7 +24,7 @@ MotherID 23.0
 //----RECO CUTS----//
 
 EtaCut 2.1
-PtCut 8.0 9999.9
+PtCut 30.0 9999.9
 
 DoDiscrByTightID 1
 DoDiscrBySoftID 0
@@ -40,7 +40,7 @@ DiscrByMetDphi 0
 MetDphiCut 1.0 3.15
 
 DiscrByMetMt 0
-MetMtCut 0. 9999.9
+MetMtCut 0. 999.9
 
 ////////////////////////////////
              Muon2
@@ -49,7 +49,7 @@ MetMtCut 0. 9999.9
 //----RECO CUTS----//
 
 EtaCut 2.1
-PtCut 8.0 9999.9
+PtCut 30.0 9999.9
 
 DoDiscrByTightID 1
 DoDiscrBySoftID 0
@@ -66,4 +66,4 @@ DiscrByMetDphi 0
 MetDphiCut 1.30 3.15
 
 DiscrByMetMt 0
-MetMtCut 0. 9999.9
+MetMtCut 0. 999.9

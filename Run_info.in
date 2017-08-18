@@ -16,8 +16,8 @@ ApplyGenWeight true
 
 ///------Triggers-----///
 
-//Trigger1FirstRequirement HLT_IsoMu22_v
-//Trigger1SecondRequirement  HLT_IsoMu22_v
+//Trigger1FirstRequirement HLT_IsoMu24
+//Trigger1SecondRequirement  HLT_IsoMu24
 
 Trigger1FirstRequirement  HLT_PFMETNoMu120_PFMHTNoMu120_IDTight
 Trigger1SecondRequirement HLT_PFMETNoMu120_PFMHTNoMu120_IDTight
@@ -42,6 +42,6 @@ HtCut 30.0
 
 JetPtForMhtAndHt 30.0        
 JetEtaForMhtAndHt 5.0        
-ApplyJetLooseIDforMhtAndHt false
+ApplyJetLooseIDforMhtAndHt true
 
 
